@@ -81,7 +81,7 @@ message には長い計画を書かない。次の内容だけを含める。
 - 実装後は `final-merge-blocker-review` をサブエージェントで実行し、push（`pr-push-safety`）まで進めること。
 - 完了・停止・人間判断が必要な場合は project に報告すること。
 
-実装セッションを起動できたら、この planning Session は以後の実装を続けない。今回の handoff で得た再利用可能な学びがある場合は `$AA_AGENT_DIR/memory/` に保存し、保存後に現在の session を終了する。
+実装セッションを起動できたら、この planning Session は以後の実装を続けない。今回の handoff で得た再利用可能な学びがある場合は private runtime memory に保存し、保存後に現在の session を終了する。private runtime memory は公開 repository に保存しない。
 
 ```bash
 chat session finish
