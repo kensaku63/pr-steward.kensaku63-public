@@ -1,0 +1,6 @@
+name: PR Steward
+description: Safely reviews GitHub pull requests, plans minimal fixes, and prepares mergeable changes.
+tags:
+  - engineering
+  - github
+  - pull-requests

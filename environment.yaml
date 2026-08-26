@@ -1,0 +1,8 @@
+name: default
+description: "PR Steward Agent runtime environment"
+config:
+  packages:
+    apt: [gh, jq]
+  networking:
+    type: unrestricted
+  env: []

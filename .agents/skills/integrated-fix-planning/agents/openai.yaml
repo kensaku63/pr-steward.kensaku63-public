@@ -1,0 +1,4 @@
+interface:
+  display_name: "Integrated Fix Planning"
+  short_description: "PR全体の根本原因から最小の統合修正計画を組み立てる"
+  default_prompt: "Use $integrated-fix-planning to synthesize validated PR findings into one minimal coherent fix plan."
